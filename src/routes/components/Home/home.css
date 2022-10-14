@@ -1,0 +1,46 @@
+.home__content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: blue;
+}
+
+.home__title {
+    font-size: large;
+    margin-bottom: auto;
+    font-weight: 100;
+}
+
+.home__subtitle {
+    position: sticky;
+    font-size: small;
+    padding-right: 5.4rem;
+    font-weight:300;
+    margin-bottom: auto;
+}
+
+.home__subtitle::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: blueviolet;
+    left: 0;
+    top: 1;
+}
+
+.home__description {
+    max-width: 400px;
+    margin-bottom: 70px;
+}
