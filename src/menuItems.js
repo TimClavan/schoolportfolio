@@ -21,11 +21,11 @@ export const menuItems = [
         ]
     },
     {
-        title: "About",
-        url: '/about'
-    },
-    {
         title: "Literature",
         url: '/literature'
+    },
+    {
+        title: "About",
+        url: '/about'
     },
 ];
